@@ -1,0 +1,41 @@
+    1  touch README.md
+    2  touch meaning-of-life.txt
+    3  ls
+    4  mv meaning-of-life.txt history.txt
+    5  ls
+    6  code .
+    7  echo "Hello Bash!"
+    8  pwd
+    9  cd ~/Documents
+   10  pwd
+   11  mkdir 61D
+   12  cd
+   13  cd 61D
+   14  mkdir 61D
+   15  git remote add origin https://github.com/weaksauces/Repository-Test.git
+   16  git branch -M main
+   17  git push -u origin main
+   18  git remote -v
+   19  git status
+   20  git commit -m "Add feature"
+   21  git push
+   22  rm.your.swp
+   23  rm .your.swp
+   24  git status
+   25  git checkout -b conflict1
+   26  git branch
+   27  git add feature.txt README.md
+   28  git commit -m "Add conflict1 changes"
+   29  git push origin conflict1
+   30  git checkout main
+   31  git checkout -b conflict2
+   32  git add feature.txt README.md
+   33  git commit -m "Add conflict2 changes"
+   34  git push origin conflict2
+   35  git checkout main
+   36  git pull
+   37  git status
+   38  git checkout main
+   39  git pull
+   40  # Write 200 most recent bash commands to history.txt
+   41  history | tail -n 200 >> history.txt
