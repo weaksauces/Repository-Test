@@ -39,3 +39,6 @@
    39  git pull
    40  # Write 200 most recent bash commands to history.txt
    41  history | tail -n 200 >> history.txt
+   42  git init
+   43  git merge
+   44  git branch -D conflict2
