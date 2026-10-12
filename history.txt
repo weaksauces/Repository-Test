@@ -36,9 +36,31 @@
    36  git pull
    37  git status
    38  git checkout main
-   39  git pull
-   40  git init
-   41  git merge
-   42  git branch -D conflict2
-   43  # Write 200 most recent bash commands to history.txt
-   44  history | tail -n 200 >> history.txt
+   39  git branch -D conflict2    1  touch README.md
+    2  touch meaning-of-life.txt
+    3  ls
+    4  mv meaning-of-life.txt history.txt
+    5  ls
+    6  code .
+    7  echo "Hello Bash!"
+    8  pwd
+    9  cd ~/Documents
+   10  pwd
+   11  mkdir 61D
+   12  cd
+   13  cd 61D
+   14  mkdir 61D
+   15  git add .
+   16  git commit -m
+   17  git commit -m "history redo"
+   18  git push origin main
+   19  git pull
+   20  git add history.txt
+   21  git commit -m "history redo"
+   22  git add repo.txt
+   23  git commit -m "fix requiem"
+   24  git branch -d conflict2
+   25  git init
+   26  git checkout main
+   27  git merge conflict1
+   28  history | tail -n 200 >> history.txt
